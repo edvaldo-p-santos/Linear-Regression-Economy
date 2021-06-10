@@ -1,4 +1,4 @@
-# Linear-Regression-Economy
+# Linear Regression - Economy
 Nesse projeto eu aplico duas regressões lineares utilizando a biblioteca "stats model" regredindo uma métrica de liberdade econômica em desemprego e renda per capita.
 
 Um debate quente ultimamente com toda essa polarização é sobre os benefícios da liberdade econômica de um país. 
@@ -37,13 +37,13 @@ Peguei os dados do PIB per capita e desemprego por meio do site do FED (Sistema 
 
 OBS: Todos os dados foram coletados para o ano de 2016.
 
-# Modelos para estimação:
+## Modelos para estimação:
 
 𝑝𝑖𝑏=𝛽0+𝛽1∗𝑓𝑟𝑒𝑒𝑑𝑜𝑚
  
 𝑡𝑥𝑑𝑒𝑠𝑒𝑚𝑝𝑟𝑒𝑔𝑜=𝛽0+𝛽1∗𝑓𝑟𝑒𝑒𝑑𝑜𝑚
 
-# Conclusões
+## Conclusões
 
 Nossos modelos deu um ajuste muito baixo e devemos ser cautelos em tomar uma conclusão. Provavelmente temos problema de especificação dos dados, ainda existe muitas outras variáveis que afetam essas variáveis dependentes. Mas, a partir deles notamos que liberdade econômica é bom para aumentar riqueza per capita e um menor desemprego. Nos dois modelos os parâmetros são estatisticamente significantes, o que nos leva a crer que a relação é coerente. 7
 
