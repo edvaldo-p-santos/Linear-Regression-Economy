@@ -10,9 +10,7 @@ Perguntas como:
 
 Diante essas perguntas quero mostrar algumas modelos de regressão que fiz e avaliar a relação de liberdade econômica e o PIB per capita e taxa de desemprego de um país. 
 
-Quando acabar de ler esse post tenho certeza que você vai estar bem melhor para encarar aquela discussão no churrasco da família (ou não, rs). 
-
-Vem comigo!
+Bom lembrar que fiz essa regressão apenas para o ano de 2016 e que os resultados aqui são apenas descritivos e não tem intenção de inferir isso para todos os países.
 
 
 ## Dados
@@ -59,11 +57,11 @@ txdesemp = 18.1 -1.4392 x freedom
 O que indica uma **correlação negativa** entre liberdade econômica e taxa de desemprego. Então, um aumento na liberdade geraria menos desemprego.
 
 Pelos resultados notamos também que o R2 ~ 0.062.
-Um valor não tão alto. O que indica um grau de ajuste não tão bom. Contudo, pelo P-valor nota se que o parâmetro de 'freedom' é estatisticamente relevante a 0.9%.
+Um valor baixíssimo. O que indica um grau de ajuste não tão bom. Contudo, pelo P-valor nota se que o parâmetro de 'freedom' é estatisticamente relevante a 0.9%.
 
 ## Conclusões
 
-Nossos modelos deu um ajuste muito baixo e devemos ser cautelos em tomar uma conclusão. Provavelmente temos problema de especificação dos dados, ainda existe muitas outras variáveis que afetam essas variáveis dependentes. Mas, a partir deles notamos que liberdade econômica é bom para aumentar riqueza per capita e um menor desemprego. Nos dois modelos os parâmetros são estatisticamente significantes, o que nos leva a crer que a relação é coerente. 7
+Nossos modelos deu um ajuste muito baixo e devemos ser cautelos em tomar uma conclusão. Provavelmente temos problema de especificação dos dados, ainda existe muitas outras variáveis que afetam essas variáveis dependentes. Mas, a partir deles notamos que liberdade econômica pode ser entendido como algo bom para aumentar riqueza per capita e um menor desemprego a partir de nossa amostra de países em 2016. Nos dois modelos os parâmetros são estatisticamente significantes, o que nos leva a crer que a relação é coerente.
 
 Sempre bom lembrar que há um outro lado da moeda. Maior eficiência é inversamente proporcional a igualdade, algo muito importante também. Logo, embora maior liberdade econômica gera maior produto e renda, mas não quer dizer que o ideal é ser totalmente livre!
 
